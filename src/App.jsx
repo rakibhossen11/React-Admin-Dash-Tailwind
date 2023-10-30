@@ -17,8 +17,9 @@ function App() {
     <Routes>
       <Route path='/auth/signin' element={<SignIn />} />
       <Route path='/auth/signup' element={<SignUp />} />
+      <Route path='/ecommerce' element={<Ecommerce />} />
       <Route element={<DefaultLayout />}>
-          <Route index element={<Ecommerce />} />
+          
           {routes.map((routes, index) => {
             const { path, component: Component } = routes;
             return (
