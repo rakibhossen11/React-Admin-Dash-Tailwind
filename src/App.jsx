@@ -14,8 +14,6 @@ function App() {
 
   return (
     <>
-
-    <h1>this from app</h1>
     <Routes>
       <Route path='/auth/signin' element={<SignIn />} />
       <Route path='/auth/signup' element={<SignUp />} />

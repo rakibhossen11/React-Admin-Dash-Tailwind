@@ -252,9 +252,9 @@ const SignIn = () => {
                     />
                   </g>
                   <defs>
-                    {/* <clipPath id="clip0_191_13499">
+                    <clipPath id="clip0_191_13499">
                       <rect width="20" height="20" fill="white" />
-                    </clipPath> */}
+                    </clipPath>
                   </defs>
                 </svg>
               </span>
@@ -264,9 +264,9 @@ const SignIn = () => {
             <div className="mt-6 text-center">
               <p>
                 Don’t have any account?{" "}
-                {/* <Link to="/auth/signup" className="text-primary">
+                <Link to="/auth/signup" className="text-primary">
                   Sign Up
-                </Link> */}
+                </Link>
               </p>
             </div>
           </form>
